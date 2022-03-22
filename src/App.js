@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import AppBar from './components/Navbar/Appbar'
 import AnimatedCursor from 'react-animated-cursor';
 import About from './components/AboutSection/About';
 import Achievements from './components/AchieveSection/Achievements';
@@ -42,7 +41,6 @@ function App() {
       {
         isShow &&
       (<div>
-        <AppBar />
         <Hero />
         <PlaySound />
         <About />
