@@ -13,7 +13,7 @@ const Hero = () => {
   const buttonVariants = {
     hover: {
       scale: 1.1,
-      x: [-10, 0, 30],
+      x: [10, 0],
       y: [-20, 0, 20],
       textShadow: "0px 0px 10px rgb(188, 188, 188)",
       transition: {
@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <motion.div animate={{scale: [1, 1.1]}} transition={{type: 'spring' , duration: 2}}>
-        <Container sx={{marginTop: '7rem', color: '#bcbcbc'}}>
+        <Container sx={{marginTop: '14rem', color: '#bcbcbc'}}>
             <motion.div
             drag
             dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0}}
