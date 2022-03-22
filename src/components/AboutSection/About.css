@@ -1,0 +1,17 @@
+.about{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.aboutText{
+    font-family: 'Orbitron', sans-serif;
+}
+.myImage{
+    width: 80%;
+    height: auto;
+}
+
+.css-6i6u08-MuiContainer-root{
+    padding-left: 30px;
+}
