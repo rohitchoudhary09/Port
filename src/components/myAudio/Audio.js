@@ -29,7 +29,7 @@ const PlaySound = (
         return(
             <div style={{position: 'absolute', right: '2rem'}}>
                 <ThemeProvider theme={vol}>
-                <Button variant="outlined" onClick={() => setIsPlaying(!isPlaying)} color="secondary" sx={{padding: '1vw', borderRadius: '100%'}}>{!isPlaying ? <VolumeUpIcon /> : <VolumeOffIcon /> }</Button>
+                <Button variant="outlined" onClick={() => setIsPlaying(!isPlaying)} color="secondary" sx={{padding: '1vh', borderRadius: '100%'}}>{!isPlaying ? <VolumeUpIcon /> : <VolumeOffIcon /> }</Button>
                 </ThemeProvider>
                 <Sound
                     url={song}
