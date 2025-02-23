@@ -38,6 +38,7 @@ const Hero = () => {
                 style={{marginBottom: '7rem'}}
                 >ROHIT CHAUDHARY</motion.h1>
             </motion.div>
+                  <img src="https://ik.imagekit.io/foogrshml/Untitled.png?updatedAt=1740272179182" alt="image" />
             <Toolbar>
               <Grid container justifyContent="center">
                 <Typography p={4}>
